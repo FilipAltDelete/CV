@@ -1,6 +1,3 @@
-function goToGithub() {
-  window.location.href("https://github.com/FilipAltDelete?tab=repositories");
-}
 
 function clearContentText() {
   var content = "";
