@@ -1890,8 +1890,8 @@ body.menu-is-open {
  * ## mobile menu toggle 
  * ------------------------------------------------------------------- */
 .header-menu-toggle {
-  width: 48px;
-  height: 45px;
+  width: 60px;
+  height: 58px;
   line-height: 45px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -1912,8 +1912,8 @@ body.menu-is-open {
 
 .header-menu-icon {
   display: block;
-  width: 26px;
-  height: 2px;
+  width: 33px;
+  height: 3px;
   margin-top: -1px;
   right: auto;
   bottom: auto;
