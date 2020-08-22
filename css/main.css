@@ -184,7 +184,6 @@ h6, .h6 {
 p img {
   margin: 0;
 }
-
 p.lead {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
@@ -1434,7 +1433,7 @@ body.menu-is-open {
   line-height: 1.333;
   text-transform: uppercase;
   letter-spacing: .25rem;
-  color: #793ea5;
+  color: #ad73da;
   margin-top: 0;
   margin-bottom: 3rem;
   position: relative;
@@ -2049,54 +2048,56 @@ body.menu-is-open {
 
 }
 
-
 /* ===================================================================
  * # home
  *
  * ------------------------------------------------------------------- */
-.s-home {
-  width: 100%;
-  height: 100vh;
-  min-height: 786px;
-  background-color: transparent;
-  position: relative;
-  display: table;
-}
-
-.s-home::before {
-  display: block;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #111111;
-  opacity: .7;
-  z-index: 2;
-}
-
-.s-home::after {
-  display: block;
-  content: "";
-  width: 50%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  opacity: .5;
-  z-index: 3;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  bottom: 0;
-  right: 0;
-}
-
-.s-home .grid-overlay > div {
-  display: none;
-}
-
-.no-js .s-home {
-  background: #000000;
+ 
+ 
+ /*
+ */
+ .s-home {
+   width: 100%;
+   height: 100vh;
+   min-height: 786px;
+   background-color: transparent;
+   position: relative;
+   display: table;
+  }
+  .s-home::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+    opacity: .4;
+    z-index: 2;
+  }
+  
+  .s-home::after {
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: .5;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .s-home .grid-overlay > div {
+    display: none;
+  }
+  
+  .no-js .s-home {
+    background: #000000;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3300,12 +3301,12 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients a {
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.479);
 }
 
 .clients a:hover,
 .clients a:focus {
-  color: #793ea5;
+  color: #b166eb;
 }
 
 .clients li {
@@ -3389,28 +3390,37 @@ html.no-csstransitions .home-content__main {
  * # testimonials
  *
  * ------------------------------------------------------------------- */
-.s-testimonials {
+
+
+ /*
+ 
+ */
+ .s-testimonials {
   padding-top: 16.2rem;
   padding-bottom: 21rem;
   text-align: center;
   position: relative;
+  /*
   background-image: url(../images/space_background.jpg);
+  */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-
-.s-testimonials::before {
-  display: block;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .9;
-  background-color: #111111;
+/*
+*/
+  .s-testimonials::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    background-color: #111111;
 }
+
 
 .testimonials__icon {
   height: 4.5rem;
@@ -3495,7 +3505,7 @@ html.no-csstransitions .home-content__main {
   line-height: 1.6;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #793ea5;
+  color: #ad73da;
 }
 
 .testimonials__author span {
